@@ -1,0 +1,80 @@
+html{
+   background-image: linear-gradient(white,pink);
+   background-image: url(image/azhagu.jpeg);
+   background-repeat: no-repeat;
+   background-size:100rem;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   }
+.aaa{
+   font-size:3rem;
+   font-weight:bold;
+   text-align: center;
+   justify-content: center;
+   margin-left:10rem;
+   margin-top:5rem;
+   animation-name: bbbb;
+   animation-duration: 3s;
+   animation-iteration-count:4;
+   animation-delay: 1s;
+   color:black;
+   margin-bottom: 10rem;
+   
+}
+
+
+@keyframes bbbb{
+   0%{
+   transform: translatey(-1000px);
+   }
+   35%{
+      transform: translatey(300px);
+   }
+   50%{
+      transform: translatey(-2%);
+   }
+   80%{
+      transform: rotatey(180deg);
+   }
+   100%{
+      transform:rotatey(-45deg)
+   }
+}
+.image{
+   display:flex;
+   flex-direction: row;
+   margin-left: 10rem;
+   
+}
+img{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   margin-bottom:10rem;
+   margin-left:4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   animation-name: uuu;
+   animation-duration: 3s;
+   animation-iteration-count:infinite;
+   animation-delay: 1s;
+}
+@keyframes uuu{
+   0%{
+      transform: translatey(-1000px);
+      }
+      35%{
+         transform: translatey(300px);
+      }
+      50%{
+         transform: translatey(-2%);
+      }
+      80%{
+         transform: rotatey(180deg);
+      }
+      100%{
+         transform:rotatey(-45deg)
+      }
+}
